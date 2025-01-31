@@ -1,0 +1,71 @@
+/* Form container */
+form {
+    background-color: #567e8d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Limiting the max width of the form */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields */
+  input, textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  
+  /* Input focus effect */
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #0069d9;
+  }
+  
+  /* Title input specific */
+  input[type="text"] {
+    font-weight: bold;
+  }
+  
+  /* Textarea for description */
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  /* Date input */
+  input[type="date"] {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button */
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Optional: Add some space around the form */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  

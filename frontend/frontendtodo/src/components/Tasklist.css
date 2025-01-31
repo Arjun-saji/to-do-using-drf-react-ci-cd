@@ -1,0 +1,59 @@
+.container {
+    background-color: #75b9c7;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Add margin between each task card */
+    width: 50%;
+  }
+  
+  .task {
+    background-color: #518b8f;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  
+  .button-delete {
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; /* Ensure button takes full width */
+    border-radius: 4px; /* Optional: for rounded button */
+  }
+  
+  .button-delete:hover {
+    background-color: #0069d9;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5f0b0b;
+  }
+  
+  .descprition {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .duedate {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .status {
+    font-size: 14px;
+    color: #333;
+  }
+  
