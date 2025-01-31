@@ -30,6 +30,6 @@ backend/__pycache__/
 backend/.env
 .env/
 venv/
-
+myvenv/
 # General
 .DS_Store
